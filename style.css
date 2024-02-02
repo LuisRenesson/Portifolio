@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Krona+One & display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   box-sizing: border-box;
+   height: 100vh;
+    background-color: #000000;
+    color: #F6F6F6;
+ }
+
+ .titulo-destaque {
+        color: #22d4fD;
+    }
+
+.apresentacao {
+   margin: 10% 15%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+} 
+
+img {
+   margin: 5%;
+   display: flex;
+   height: 100vh;
+   border-radius: 30px;
+}
+
+.apresentacao__conteudo {
+   width: 615px;
+   display: flex;
+   flex-direction: column;
+   gap: 70px;
+}
+
+.apresentacao__conteudo__titulo {
+   font-size: 36px;
+   font-family: 'Krona One', sem serifa;
+}
+
+.apresentacao__conteudo__titulo__paragrafo {
+   font-size: 24;
+   font-family: 'Montserrat', sem serifa;;
+}
+
+.apresentacao__links {
+   display: flex;
+   justify-content: space-between;
+}
+
+.apresentacao__links__link {
+   background-color: #22d4fD;
+   width: 250px;
+   text-align: center;
+   border-radius: 16px;
+   font-size: 24px;
+   font-weight: 600;
+   padding: 18px 0;
+   text-decoration: none;
+   color: #000000;
+   font-family: 'Krona One', sem serifa;
+}
